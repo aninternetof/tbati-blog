@@ -3,5 +3,5 @@
 		{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" width="500px" />{{ end }}
 	</div>
 	<p class="center"><a href="{{ .Permalink }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></p>
-	<p class="center">{{ .Description }}</p>
+	<p class="center">{{ .Content }}</p>
 </div>
